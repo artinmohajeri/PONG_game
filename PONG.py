@@ -55,7 +55,7 @@ ballVelx = 8.5
 ballVely = 8.5
 chosi = pygame.font.SysFont('comicsans', 15)
 chosit = chosi.render('developed by ARTIN mj', 1, (255,255,255))
-pygame.display.set_icon(pygame.image.load('stuff/pongicon.png'))
+# pygame.display.set_icon(pygame.image.load('stuff/pongicon.png'))
 while run:
     win.fill((0, 0, 0))
     win.blit(chosit,(10,10))
